@@ -1,33 +1,33 @@
-using UnityEngine;
-using UnityEngine.Events;
-using System.Collections;
-using System.Collections.Generic;
+// using UnityEngine;
+// using UnityEngine.Events;
+// using System.Collections;
+// using System.Collections.Generic;
 
-public class Entity : MonoBehaviour
-{
-    [SerializedField] private float StartingHealth;
-    private float health;
+// public class Entity : MonoBehaviour
+// {
+//     [SerializedField] private float StartingHealth;
+//     private float health;
 
-    public float Health
-    {
-        get
-        {
-            return health;
-        }
-        set
-        {
-            health = value;
-            Debug.Log(health);
+//     public float Health
+//     {
+//         get
+//         {
+//             return health;
+//         }
+//         set
+//         {
+//             health = value;
+//             Debug.Log(health);
 
-            if (health <= 0f)
-            {
-                Destroy(gameObject);
-            }
-        }
-    }
+//             if (health <= 0f)
+//             {
+//                 Destroy(gameObject);
+//             }
+//         }
+//     }
 
-    void Start()
-    {
-        Health = StartingHealth;
-    }
-}
+//     void Start()
+//     {
+//         Health = StartingHealth;
+//     }
+// }
