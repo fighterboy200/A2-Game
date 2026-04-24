@@ -15,8 +15,8 @@ TagManager:
   - Ground
   - Tree
   - Player
-  - 
-  - 
+  - EnemyAI
+  - NavMesh
   - 
   - 
   - 
